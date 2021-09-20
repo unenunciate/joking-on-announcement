@@ -48,7 +48,7 @@ export default function Home() {
           <label className="p-4 text-xl font-bold">Join our newsletter</label>
           <input
             type="text"
-            className="w-full p-2 mx-4 border-2 border-black rounded-lg outline-none text-lemon-meringue placeholder-lemon-meringue sm:w-2/3 bg-maximum-red"
+            className="w-full p-2 mx-4 text-white placeholder-white border-2 border-black rounded-lg outline-none sm:w-2/3 bg-maximum-red"
             placeholder="What's your email?"
             name="email"
             onChange={(e) => {
@@ -72,18 +72,18 @@ export default function Home() {
             <p className="">
               To join our NFT Raise, please send the NFT(s), ethereum mainnet
               only, that you would like to contribute to:
-              <span className="block text-sm text-maximum-red hover:text-black">
+              <span className="block text-sm text-maximum-red hover:text-lemon-meringue">
                 0xD70ac44Eb0055d089aDF96F0318f3509C5C70cAa
               </span>
-              Eventually, I will send back the amount of laugh tokens I feel the
+              Eventually, we will send back the amount of laugh tokens we feel the
               NFT you sent was worth. You may send multiple NFTs.
-              <span className="block p-4 text-xs sm:text-sm">
+              <span className="block p-4 text-xs sm:text-xs">
                 Disclaimer: The secondary market value, or the value of a
-                particular NFT when I choose to sell it, doesn't contribute to
-                my decision of how many laugh tokens to send you. ERC20 tokens
+                particular NFT when we choose to sell it, doesn't contribute to
+                our decision of how many laugh tokens to send you. ERC20 tokens
                 are not a substitute for NFTs. ERC20 received will not result in
                 reciprocation of laugh tokens. Any ERC20 tokens sent will not be
-                returned. This raise ends whenever I decide it does.
+                returned. This raise ends whenever we decide it does.
               </span>
             </p>
           </a>
