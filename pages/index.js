@@ -11,14 +11,14 @@ export default function Home() {
     console.log('Creating new subscriber: ', email);
     let result;
     try{
-    result = await axios.post(
-      `${
-        process.env.NEXT_PUBLIC_STRAPI_URL ?? 'http://localhost:1337'
-      }/auth/local/register`,
-      {username:email, password:crypto.randomBytes(16), email:email, role:"Member"}
-    );
+      result = await axios.post(
+        `${
+          process.env.NEXT_PUBLIC_STRAPI_URL ?? 'http://localhost:1337'
+        }/auth/local/register`,
+        {username:email, password:crypto.randomBytes(16), email:email, role:"Member"}
+      );
     }catch(e){
-      console.log(e);
+      console.log("ERROR",e);
     }
     console.log("Result:", result);
     setEmail('');
