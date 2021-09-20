@@ -21,6 +21,7 @@ export default function Home() {
       console.log(e);
     }
     console.log("Result:", result);
+    setEmail('');
   });
   return (
     <div className="flex flex-col items-center justify-center h-screen max-h-screen min-h-screen bg-maximum-red">
@@ -30,12 +31,12 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center flex-1 w-full max-h-[90%] px-20 text-center bg-maximum-red space-y-4">
-        <h1 className="min-w-full p-2 mt-24 text-3xl font-bold text-black">
+        <h1 className="min-w-full p-2 mt-24 text-6xl font-bold text-black">
           JokingOn
         </h1>
 
         <div className="flex flex-col items-center justify-center w-full -mb-24 space-y-4">
-          <label className="p-4 text-3xl font-bold">Join our newsletter</label>
+          <label className="p-4 text-xl font-bold">Join our newsletter</label>
           <input
             type="text"
             className="w-full p-2 mx-4 placeholder-black border-2 border-black rounded-lg outline-none sm:w-2/3 bg-maximum-red"
