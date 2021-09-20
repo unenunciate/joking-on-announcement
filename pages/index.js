@@ -34,7 +34,6 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center flex-1 w-full max-h-[90%] px-8 text-center bg-maximum-red space-y-4">
-        
         <h1 className="min-w-full pt-4 text-6xl font-bold text-black">
           JokingOn
         </h1>
@@ -51,22 +50,22 @@ export default function Home() {
             }}
           />
           <div className="flex flex-col items-center justify-center w-full space-y-4 sm:mt-4">
-          <button
-            className="w-5/6 p-2 font-bold bg-black rounded-lg outline-none text-lemon-meringue ring-black ring-2 active:scale-75"
-            onClick={(e) => {
-              e.preventDefault();
-              createNewSubscriber(email);
-            }}
-          >
-            Submit
-          </button>
-          <PopupButton
-          id="ROgN6Csu"
-          className="w-5/6 p-2 font-bold bg-black rounded-lg outline-none text-lemon-meringue ring-black ring-2 active:scale-75"
-        >
-          Request Comedian Access
-        </PopupButton>
-      </div>
+            <button
+              className="w-5/6 p-2 font-bold bg-black rounded-lg outline-none sm:w-2/3 md:w-1/2 lg:w-1/3 text-lemon-meringue ring-black ring-2 active:scale-75"
+              onClick={(e) => {
+                e.preventDefault();
+                createNewSubscriber(email);
+              }}
+            >
+              Submit
+            </button>
+            <PopupButton
+              id="ROgN6Csu"
+              className="w-5/6 p-2 font-bold bg-black rounded-lg outline-none sm:w-2/3 md:w-1/2 lg:w-1/3 text-lemon-meringue ring-black ring-2 active:scale-75"
+            >
+              Request Comedian Access
+            </PopupButton>
+          </div>
         </div>
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl -mt-16 sm:w-full">
@@ -78,8 +77,8 @@ export default function Home() {
               <span className="block text-xs text-maximum-red hover:text-lemon-meringue">
                 0xD70ac44Eb0055d089aDF96F0318f3509C5C70cAa
               </span>
-              Eventually, we will send back the amount of laugh tokens we feel the
-              NFT you sent was worth. You may send multiple NFTs.
+              Eventually, we will send back the amount of laugh tokens we feel
+              the NFT you sent was worth. You may send multiple NFTs.
               <span className="block p-4 text-[8px] sm:text-xs">
                 Disclaimer: The secondary market value, or the value of a
                 particular NFT when we choose to sell it, doesn't contribute to
