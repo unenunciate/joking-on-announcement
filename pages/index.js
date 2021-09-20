@@ -29,22 +29,17 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen max-h-screen min-h-screen bg-maximum-red">
       <Head>
-        <title>Joking On</title>
+        <title>JokingOn</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center flex-1 w-full max-h-[90%] px-20 text-center bg-maximum-red space-y-4">
-        <PopupButton
-          id="ROgN6Csu"
-          className="absolute px-8 py-2 text-xs font-bold bg-black rounded-lg text-lemon-meringue top-4 right-8 active:scale-75"
-        >
-          Request Comedian Access
-        </PopupButton>
-        <h1 className="min-w-full p-2 mt-24 text-6xl font-bold text-black">
+      <main className="flex flex-col items-center justify-center flex-1 w-full max-h-[90%] px-8 text-center bg-maximum-red space-y-4">
+        
+        <h1 className="min-w-full pt-4 text-6xl font-bold text-black">
           JokingOn
         </h1>
 
-        <div className="flex flex-col items-center justify-center w-full -mb-24 space-y-4">
+        <div className="flex flex-col items-center justify-center min-w-full -mb-8 space-y-4">
           <label className="p-4 text-xl font-bold">Join our newsletter</label>
           <input
             type="text"
@@ -55,8 +50,9 @@ export default function Home() {
               setEmail(e.target.value);
             }}
           />
+          <div className="flex flex-col items-center justify-center w-full space-y-4 sm:mt-4">
           <button
-            className="w-1/3 p-2 font-bold bg-black rounded-lg outline-none text-lemon-meringue sm:mt-4 ring-black ring-2 active:scale-75"
+            className="w-5/6 p-2 font-bold bg-black rounded-lg outline-none text-lemon-meringue ring-black ring-2 active:scale-75"
             onClick={(e) => {
               e.preventDefault();
               createNewSubscriber(email);
@@ -64,20 +60,27 @@ export default function Home() {
           >
             Submit
           </button>
+          <PopupButton
+          id="ROgN6Csu"
+          className="w-5/6 p-2 font-bold bg-black rounded-lg outline-none text-lemon-meringue ring-black ring-2 active:scale-75"
+        >
+          Request Comedian Access
+        </PopupButton>
+      </div>
         </div>
 
-        <div className="flex flex-wrap items-center justify-around max-w-4xl -mt-32 sm:w-full">
+        <div className="flex flex-wrap items-center justify-around max-w-4xl -mt-16 sm:w-full">
           <a className="text-center rounded-xl text-maximum-red focus:text-maximum-black sm:w-5/6 hover:text-black">
             <h3 className="font-bold">NFT Raise</h3>
-            <p className="">
+            <p className="text-sm">
               To join our NFT Raise, please send the NFT(s), ethereum mainnet
               only, that you would like to contribute to:
-              <span className="block text-sm text-maximum-red hover:text-lemon-meringue">
+              <span className="block text-xs text-maximum-red hover:text-lemon-meringue">
                 0xD70ac44Eb0055d089aDF96F0318f3509C5C70cAa
               </span>
               Eventually, we will send back the amount of laugh tokens we feel the
               NFT you sent was worth. You may send multiple NFTs.
-              <span className="block p-4 text-xs sm:text-xs">
+              <span className="block p-4 text-[8px] sm:text-xs">
                 Disclaimer: The secondary market value, or the value of a
                 particular NFT when we choose to sell it, doesn't contribute to
                 our decision of how many laugh tokens to send you. ERC20 tokens
