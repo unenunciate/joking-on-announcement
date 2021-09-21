@@ -41,7 +41,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center justify-center min-w-full -mb-8 space-y-4">
           <label className="p-4 text-xl font-bold">Join our newsletter</label>
-         
+
           <input
             type="text"
             className="w-full px-4 py-3 mx-4 font-bold border-4 border-black rounded-lg outline-none text-lemon-meringue placeholder-lemon-meringue sm:w-2/3 bg-maximum-red"
@@ -101,7 +101,9 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="w-16 -ml-2 font-bold text-maximum-red">Built On</div>
+          <div className="w-16 -ml-2 font-bold text-lemon-meringue">
+            Built On
+          </div>
           <img
             src="/arbitrum.svg"
             alt="Arbitrum Logo"
