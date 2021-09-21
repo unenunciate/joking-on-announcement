@@ -96,16 +96,16 @@ export default function Home() {
 
       <footer className="flex items-center justify-center w-full h-[10%] p-2 bg-black">
         <a
-          className="flex items-center justify-center"
+          className="flex items-center"
           href="https://www.immutable.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="mr-4 text-maximum-red">Powered by</div>
+          <div className="w-16 -ml-2 font-bold text-maximum-red">Built On</div>
           <img
-            src="https://assets-global.website-files.com/5f7eec37ff782e797edabe11/60e443ed35f546d0d2ede08f_logo-main-p-500.png"
-            alt="Immutable Logo"
-            className="h-4 ml-2"
+            src="/arbitrum.svg"
+            alt="Arbitrum Logo"
+            className="items-center w-16 h-10"
           />
         </a>
       </footer>
