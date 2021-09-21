@@ -1,29 +1,15 @@
-# Next.js + Tailwind CSS Example
+# JokingOn Announcement
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+[IndieHackers](https://www.indiehackers.com/product/jokingon)
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+[Twitter](https://twitter.com/JokingOnLaugh)
 
-## Preview
+Being a fan of stand-up comedy for a long time, I was really disappointed when the pandemic started and the lack of live shows available. It was clear everyone from comedians to fans hated the only alternative, video live-streamed stand-up show.
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+That is where JokingOn comes into not only supplement comedian's live shows but to fully integrate into the comedy ecosystem. The goal of the project is to replace the hobbled together ecosystem of technologies that stand-up comedians use to send and receive notifications, interact with fans, event ticketing, audience growth, produce shows, and even writing jokes.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+The platform operates on an NFT primitive basis meaning that every piece of content on the platform is based and deeply intergrated with an NFT. Our platform is a genuine example of what is possible with NFTs beyond simple art and novelties.
 
-## Deploy your own
+The platform is powered by its Laugh token which is automatically contributed via the application when the user laughs based on how hard they laugh. The token can also be used to buy both physical and digital merchandise (these may include NFTs of jokes or phrases of comedians), tickets, and subscribe to comedians for special perks when interacting with them.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Suggestions posted here will be reviewed: [JokinOn WateringHole](https://www.wateringhole.blue/watering-holes/2) (Use Ropsten Network)
