@@ -8,6 +8,7 @@ import { PopupButton } from '@typeform/embed-react'
 
 export default function Home() {
   const [email, setEmail] = useState('');
+
   const createNewSubscriber= useCallback(async (email) => {
     console.log('Creating new subscriber: ', email);
     let result;
@@ -39,9 +40,8 @@ export default function Home() {
         </h1>
 
         <div className="flex flex-col items-center justify-center min-w-full -mb-8 space-y-4">
-          <label className="p-4 text-xl font-bold">
-            Join our newsletter
-          </label>
+          <label className="p-4 text-xl font-bold">Join our newsletter</label>
+         
           <input
             type="text"
             className="w-full px-4 py-3 mx-4 font-bold border-4 border-black rounded-lg outline-none text-lemon-meringue placeholder-lemon-meringue sm:w-2/3 bg-maximum-red"
