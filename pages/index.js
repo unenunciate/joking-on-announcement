@@ -35,7 +35,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center flex-1 w-full max-h-[90%] px-8 text-center bg-maximum-red space-y-8">
-        <h1 className="min-w-full mb-24 text-6xl font-bold text-black">
+        <h1 className="min-w-full text-6xl font-bold text-black">
           <a
             href="https://www.jokingon.com"
             target="_blank"
