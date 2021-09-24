@@ -6,13 +6,13 @@ export default function Home() {
  
   
   return (
-    <div className="flex flex-col items-center justify-center h-screen max-h-screen min-h-screen bg-maximum-red">
+    <div className="flex flex-col items-center h-screen max-h-screen min-h-screen bg-maximum-red">
       <Head>
         <title>JokingOn</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center flex-1 w-full max-h-[90%] px-8 text-center bg-maximum-red space-y-8">
+      <main className="flex flex-col items-center justify-around flex-1 w-full max-h-[90%] px-8 text-center bg-maximum-red space-y-8">
         <h1 className="min-w-full text-6xl font-bold text-black">
           <a
             href="https://www.jokingon.com"
