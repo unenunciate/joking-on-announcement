@@ -1,31 +1,9 @@
 import Head from 'next/head';
-import axios from 'axios';
 
-import crypto from 'crypto';
-
-import {useState, useCallback} from 'react';
 import { PopupButton } from '@typeform/embed-react'
 
 export default function Home() {
-  const [email, setEmail] = useState('');
-
-  const createNewSubscriber= useCallback(async (email) => {
-    console.log('Creating new subscriber: ', email);
-    let result;
-    try{
-      result = await axios.post(
-        `${
-          process.env.NEXT_PUBLIC_STRAPI_URL ?? 'http://localhost:1337'
-        }/auth/local/register`,
-        {username:email, password:crypto.randomBytes(16), email:email, role:{name:"Member"}}
-      );
-    }catch(e){
-      console.log("ERROR",e);
-    }
-    console.log("Result:", result);
-    setEmail('');
-  });
-
+ 
   
   return (
     <div className="flex flex-col items-center justify-center h-screen max-h-screen min-h-screen bg-maximum-red">
