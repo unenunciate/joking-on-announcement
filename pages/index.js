@@ -34,38 +34,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center flex-1 w-full max-h-[90%] px-8 text-center bg-maximum-red space-y-4">
-        <h1 className="min-w-full pt-4 text-6xl font-bold text-black">
-          JokingOn
+      <main className="flex flex-col items-center justify-center flex-1 w-full max-h-[90%] px-8 text-center bg-maximum-red space-y-8">
+        <h1 className="min-w-full mb-32 text-6xl font-bold text-black">
+          <a
+            href="https://www.jokingon.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            JokingOn
+          </a>
         </h1>
 
-        <div className="flex flex-col items-center justify-center min-w-full -mb-8 space-y-4">
-          <label className="p-4 text-xl font-bold">Join our newsletter</label>
-
-          <input
-            type="text"
-            className="w-full px-4 py-3 mx-4 font-bold border-4 border-black rounded-lg outline-none text-lemon-meringue placeholder-lemon-meringue sm:w-2/3 bg-maximum-red"
-            placeholder="What's your email?"
-            name="email"
-            onChange={(e) => {
-              setEmail(e.target.value);
-            }}
-          />
-          <div className="flex flex-col items-center justify-center w-full space-y-4 sm:mt-4">
-            <button
-              className="w-5/6 p-2 font-bold bg-black rounded-lg outline-none sm:w-2/3 md:w-1/2 lg:w-1/3 text-lemon-meringue ring-black ring-2 active:scale-75"
-              onClick={(e) => {
-                e.preventDefault();
-                createNewSubscriber(email);
-              }}
-            >
-              Submit
-            </button>
+        <div className="flex flex-col items-center justify-center min-w-full -mb-8">
+          <div className="flex flex-col items-center justify-center w-full">
             <PopupButton
               id="ROgN6Csu"
               className="w-5/6 p-2 font-bold bg-black rounded-lg outline-none sm:w-2/3 md:w-1/2 lg:w-1/3 text-lemon-meringue ring-black ring-2 active:scale-75"
             >
-              Request Comedian Access
+              Request Access
             </PopupButton>
           </div>
         </div>
@@ -92,12 +78,19 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <a
+          href="https://www.twitter.com/jokingonlaugh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/twitter.png" width={64} height={64} />
+        </a>
       </main>
 
       <footer className="flex items-center justify-center w-full h-[10%] p-2 bg-black">
         <a
           className="flex items-center"
-          href="https://www.immutable.com/"
+          href="https://www.arbitrum.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
