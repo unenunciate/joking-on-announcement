@@ -68,7 +68,7 @@ export default function Home() {
       <footer className="flex items-center justify-center w-full h-[10%] p-2 bg-black">
         <a
           className="flex items-center"
-          href="https://www.arbitrum.io/"
+          href="https://arbitrum.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
