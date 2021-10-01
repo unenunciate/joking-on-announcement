@@ -1,10 +1,12 @@
 import Head from 'next/head';
 
+import { useRouter } from 'next/router';
+
 import { PopupButton } from '@typeform/embed-react'
 
 export default function Home() {
- 
-  
+  const router = useRouter();
+
   return (
     <div className="flex flex-col items-center h-screen max-h-screen min-h-screen bg-maximum-red">
       <Head>
@@ -25,6 +27,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center justify-center min-w-full -mb-8">
           <div className="flex flex-col items-center justify-center w-full">
+            <button onClick={() => router.push("https://app.jokingon.com/login")} className="w-5/6 p-2 font-bold bg-black rounded-lg outline-none sm:w-2/3 md:w-1/2 lg:w-1/3 text-lemon-meringue ring-black ring-2 active:scale-75"> Application </button>
             <PopupButton
               id="ROgN6Csu"
               className="w-5/6 p-2 font-bold bg-black rounded-lg outline-none sm:w-2/3 md:w-1/2 lg:w-1/3 text-lemon-meringue ring-black ring-2 active:scale-75"
