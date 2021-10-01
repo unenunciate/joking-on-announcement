@@ -78,7 +78,7 @@ export default function Home() {
           <img
             src="/avax.svg"
             alt="Avax Logo"
-            className="items-center w-24 h-10"
+            className="items-center w-24 h-10 fill-current text-lemon-meringue"
           />
         </a>
       </footer>
