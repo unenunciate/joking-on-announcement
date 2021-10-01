@@ -72,13 +72,13 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="w-16 -ml-2 font-bold text-lemon-meringue">
+          <div className="w-24 -ml-2 font-bold text-lemon-meringue">
             Built On
           </div>
           <img
-            src="/arbitrum.svg"
-            alt="Arbitrum Logo"
-            className="items-center w-16 h-10"
+            src="/avax.svg"
+            alt="Avax Logo"
+            className="items-center w-24 h-10"
           />
         </a>
       </footer>
