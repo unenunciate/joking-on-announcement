@@ -38,22 +38,22 @@ export default function Home() {
         </div>
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl -mt-16 sm:w-full">
-          <a className="text-center rounded-xl text-maximum-red focus:text-maximum-black sm:w-5/6 hover:text-black">
+          <a className="text-center rounded-xl text-maximum-red focus:text-maximum-black sm:w-5/6 lg:w-1/2 hover:text-black">
             <h3 className="font-bold">NFT Raise</h3>
             <p className="text-sm">
-              To join our NFT Raise, please send the NFT(s), ethereum mainnet
-              only, that you would like to contribute to:
+              To join our NFT Raise, please send the NFT(s), only ethereum mainnet
+              or Avax C-Chain accepted, that you would like to contribute to:
               <span className="block text-xs text-maximum-red hover:text-lemon-meringue">
                 0xD70ac44Eb0055d089aDF96F0318f3509C5C70cAa
               </span>
-              Eventually, we will send back the amount of laugh tokens we feel
+              Eventually, we will send back the amount of joke tokens we feel
               the NFT you sent was worth. You may send multiple NFTs.
               <span className="block p-4 text-[8px] sm:text-xs">
                 Disclaimer: The secondary market value, or the value of a
                 particular NFT when we choose to sell it, doesn't contribute to
-                our decision of how many laugh tokens to send you. ERC20 tokens
-                are not a substitute for NFTs. ERC20 received will not result in
-                reciprocation of laugh tokens. Any ERC20 tokens sent will not be
+                our decision of how many joke tokens to send you. Fungible tokens
+                are not a substitute for NFTs. Fungible tokens received will not result in
+                reciprocation of joke tokens. Any ERC20 tokens sent will not be
                 returned. This raise ends whenever we decide it does.
               </span>
             </p>
